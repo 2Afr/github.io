@@ -6,13 +6,15 @@ div {
     align-content: center;
 }
 
-a, a:link, a:visited {
+a,
+a:link,
+a:visited {
 
     text-decoration: none;
 }
 
 a:active {
-    
+
     text-decoration: underline;
 }
 
@@ -26,15 +28,25 @@ a:active {
     width: 100%;
     width: 100%;
     height: 50px;
-    
+
 }
 
 .Blog {
     padding: 50px;
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #000000;
     font-size: 25px;
     font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+    border-style: outset;
+    border-color: red;
+    border-radius: 20px;
+    margin-top: 50px;
+    border-width: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Blog-link {
@@ -43,10 +55,20 @@ a:active {
 
 .Projects {
     padding: 50px;
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #000000;
     font-size: 25px;
     font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+    border-style: outset;
+    border-color: rgb(17, 255, 17);
+    border-radius: 20px;
+    margin-top: 50px;
+    border-width: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Projects-link {
@@ -55,11 +77,20 @@ a:active {
 
 .About {
     padding: 50px;
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #000000;
     font-size: 25px;
     font-family: "Lato Bold", "Open Sans Bold", sans-serif;
-    color: cyan;
+    border-style: outset;
+    border-color: cyan;
+    border-radius: 20px;
+    margin-top: 50px;
+    border-width: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .About-link {
@@ -68,12 +99,52 @@ a:active {
 
 .Contact {
     padding: 50px;
-    margin-right: 10px;
+    margin-right: auto;
+    margin-left: auto;
     background-color: #000000;
     font-size: 25px;
     font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+    border-style: outset;
+    border-color: fuchsia;
+    border-radius: 20px;
+    margin-top: 50px;
+    border-width: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Contact-link {
     color: fuchsia;
+}
+
+.Stack {
+    padding: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #000000;
+    font-size: 25px;
+    font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+    border-style: outset;
+    border-color: yellow;
+    border-radius: 20px;
+    margin-top: 50px;
+    border-width: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.Stack-link {
+    color: yellow;
+}
+
+#logo-container {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
