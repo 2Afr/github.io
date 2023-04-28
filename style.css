@@ -1,0 +1,79 @@
+body {
+    background-color: black;
+}
+
+div {
+    align-content: center;
+}
+
+a, a:link, a:visited {
+
+    text-decoration: none;
+}
+
+a:active {
+    
+    text-decoration: underline;
+}
+
+.Upbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50;
+    width: 100%;
+    width: 100%;
+    height: 50px;
+    
+}
+
+.Blog {
+    padding: 50px;
+    margin-right: 10px;
+    background-color: #000000;
+    font-size: 25px;
+    font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+}
+
+.Blog-link {
+    color: red;
+}
+
+.Projects {
+    padding: 50px;
+    margin-right: 10px;
+    background-color: #000000;
+    font-size: 25px;
+    font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+}
+
+.Projects-link {
+    color: rgb(17, 255, 17);
+}
+
+.About {
+    padding: 50px;
+    margin-right: 10px;
+    background-color: #000000;
+    font-size: 25px;
+    font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+    color: cyan;
+}
+
+.About-link {
+    color: cyan;
+}
+
+.Contact {
+    padding: 50px;
+    margin-right: 10px;
+    background-color: #000000;
+    font-size: 25px;
+    font-family: "Lato Bold", "Open Sans Bold", sans-serif;
+}
+
+.Contact-link {
+    color: fuchsia;
+}
